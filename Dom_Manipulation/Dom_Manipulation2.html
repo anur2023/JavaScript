@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 2 - Change Multiple Paragraphs</title>
+</head>
+<body>
+
+    <p>Paragraph One</p>
+    <p>Paragraph Two</p>
+    <p>Paragraph Three</p>
+    <h1>I just want to check.</h1>
+
+    <script>
+        let paragraphs = document.querySelectorAll("p,h1");
+
+        for (let i = 0; i < paragraphs.length; i++) {
+            paragraphs[i].innerText = "This text is changed";
+        }
+    </script>
+
+</body>
+</html>

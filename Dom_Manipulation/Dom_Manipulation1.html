@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Manipulation</title>
+</head>
+<body>
+    <h1 class="first" id="first">Hello World</h1>
+</body>
+<script>
+   var name =  prompt("Enter your name : ")
+    // document.querySelector("h1").innerText = "Hello " + name + " how are you !"
+    // document.querySelector(".first").innerText = "Hello " + name + " how are you !"
+    document.querySelector("#first").innerText = "Hello " + name + " how are you !"
+</script>
+</html>

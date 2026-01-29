@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Manipulation 5</title>
+</head>
+<body>
+    <h1 class="c">This is our first heading.</h1>
+</body>
+<script>
+    let para = document.createElement("p");
+    para.innerText = "This is my new paragraph I want to append this text to the previous text."
+    let box = document.querySelector(".c");
+    para.style.fontSize = "20px";
+    para.style.backgroundColor = "green";
+    para.style.color = "red";
+    box.append(para);
+</script>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Profile Project</title>
+</head>
+<body>
+
+    <h1 id="main-title" class="main-class">Profile</h1>
+
+    <div id="profile"></div>
+
+    <p class="note">This text will change</p>
+
+    <p class="note">This text will also change</p>
+
+    <script>
+        // document.querySelector("#main-title").innerText = "Student Profile Page.";
+        document.querySelector(".main-class").innerText = "Student Profile Page";
+        // Changing heading style
+        let p = document.querySelector(".main-class");
+        p.style.backgroundColor = "green";
+        p.style.color = "red";
+        p.style.fontSize = "25px";  
+        //Select all paragraphs with class note
+        
+    </script>
+</body>
+</html>
