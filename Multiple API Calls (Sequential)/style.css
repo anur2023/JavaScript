@@ -1,0 +1,100 @@
+/* Reset */
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page Background */
+body{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:linear-gradient(135deg,#667eea,#764ba2);
+}
+
+/* Main Container */
+.container{
+  background:white;
+  width:400px;
+  padding:25px;
+  border-radius:12px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.25);
+  text-align:center;
+}
+
+/* Title */
+h2{
+  margin-bottom:15px;
+  color:#333;
+}
+
+/* Input */
+input{
+  width:100%;
+  padding:10px;
+  margin:10px 0;
+  border-radius:6px;
+  border:1px solid #ccc;
+  font-size:16px;
+}
+
+input:focus{
+  outline:none;
+  border-color:#667eea;
+}
+
+/* Button */
+button{
+  width:100%;
+  padding:10px;
+  background:#667eea;
+  color:white;
+  border:none;
+  border-radius:6px;
+  font-size:16px;
+  cursor:pointer;
+  margin-top:5px;
+}
+
+button:hover{
+  background:#5a67d8;
+}
+
+/* Status */
+#status{
+  margin:15px 0;
+  font-weight:bold;
+  font-size:16px;
+}
+
+/* Section Headings */
+h4{
+  margin-top:15px;
+  color:#444;
+}
+
+/* User Info Box */
+#user{
+  background:#f5f6ff;
+  padding:10px;
+  border-radius:6px;
+  margin-top:5px;
+}
+
+/* Posts List */
+ul{
+  list-style:none;
+  margin-top:10px;
+  padding:0;
+}
+
+li{
+  background:#f0f0f0;
+  margin-bottom:6px;
+  padding:8px;
+  border-radius:5px;
+  font-size:14px;
+}
